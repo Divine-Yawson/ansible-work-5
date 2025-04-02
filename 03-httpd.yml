@@ -9,12 +9,12 @@
       state: present
 
   - name: start httpd
-    services:
+    service:
       name: httpd
       state: started   
 
   - name: enable httpd
-    services:
+    service:
       name: httpd
       enabled: yes
 ...
