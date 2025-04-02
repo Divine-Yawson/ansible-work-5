@@ -4,7 +4,7 @@
   hosts: n1
 
   tasks:
-  - name: Create Directory
+- name: Create Directory
     file:
       path: /home/ec2-user/new_dir
       state: directory
