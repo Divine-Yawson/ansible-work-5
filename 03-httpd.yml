@@ -1,6 +1,7 @@
 ---
 - name: install httpd servers
   hosts: n2
+  become: yes
 
   tasks:
   - name: install httpd
