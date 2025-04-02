@@ -13,10 +13,5 @@
     git:
       repo: https://github.com/CeeyIT-Solutions/food3.git
       dest: /var/www/html
-      force: yes
-
-  - name: Remove unwanted file
-    file:
-      path: /var/www/html/04-ecomm.yml
-      state: absent  # Removes the file
+      
 ...
