@@ -1,6 +1,6 @@
 ---
 - name: under maintenance page
-  hosts: n3
+  hosts: n2
   become: yes
 
   tasks:
